@@ -22,20 +22,20 @@ button, button:visited {}
     button:active {}
 
 a[href$=".pdf"] {}  //  PDF Link
-    a[href$=".pdf"]::after {content:' (PDF)'; font-size:80%;}  //  PDF Link
+    a[href$=".pdf"]::after {}  //  PDF Link
 
 a[href$=".doc"], a[href$=".docx"] {}  // Microsoft Word document
-    a[href$=".doc"]::after, a[href$=".docx"]::after {content:' (DOC)'; font-size:80%;}
-    a[href$=".docx"]::after {content:' (DOCX)';}
+    a[href$=".doc"]::after, a[href$=".docx"]::after {}
+    a[href$=".docx"]::after {}
 
 a[href$=".mp3"] {}  //  MP3 file
-    a[href$=".mp3"]::after {content:' (MP3)'; font-size:80%;}
+    a[href$=".mp3"]::after {}
 
 a[href$=".mp4"] {}  //  MP4 file
-    a[href$=".mp4"]::after {content:' (MP4)'; font-size:80%;}
+    a[href$=".mp4"]::after {}
 
 a[href$=".zip"] {}  //  ZIP File
-    a[href$=".zip"]::after {content:' (ZIP)'; font-size:80%;}
+    a[href$=".zip"]::after {}
 
 
 
